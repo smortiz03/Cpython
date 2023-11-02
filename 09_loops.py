@@ -325,8 +325,18 @@ countries = [
 ]
 #print ("Cuba" in countries)
 
+
+#tiene errores este 
+'''
+
 for texto in countries:
     if texto=="Tierra":
         print("si existe Tierra")
 
+'''
+frutas=['platano','naranja','mango','limon']
+print(type(frutas))
+
+for fruta in reversed(frutas):
+    print(fruta)
 
